@@ -82,9 +82,7 @@ bodyClass: bg-white
                     <td class="p-3 bg-white">
                       <h1 class="mt-0 mb-3 text-base leading-full">
                         <a href="https://example.com" class="text-black hover:text-slate-700 [text-decoration:none]">
-                          2022 TADANO
-                          <br>
-                          GR-1300XL-4
+                          2022 TADANO GR-1300XL-4
                         </a>
                         <br>
                       </h1>
@@ -121,9 +119,7 @@ bodyClass: bg-white
                     <td class="p-3 bg-white">
                       <h1 class="mt-0 mb-3 text-base leading-full">
                         <a href="https://example.com" class="text-black hover:text-slate-700 [text-decoration:none]">
-                          2022 TADANO
-                          <br>
-                          GR-1300XL-4
+                          2022 TADANO GR-1300XL-4
                         </a>
                         <br>
                       </h1>
@@ -244,6 +240,50 @@ bodyClass: bg-white
               </button>
             </div>
           </div>
+
+
+<!-- TEST -->
+<style>
+  #need-help > div {
+    border: 1px solid gray;
+    position: relative; /* Add this line to make it a positioning context */
+  }
+
+  .overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    width: 100%; /* Make the image container the same width as the box */
+    height: 100%; /* Make the image container the same height as the box */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    pointer-events: none; /* Allows clicks to pass through to elements below */
+  }
+
+  .overlay-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+    opacity: 1.0; /* Adjust for desired transparency */
+  }
+</style>
+
+<div id="need-help" class="flex justify-center items-center">
+  <div class="w-[550px] text-center mb-12">
+    <!-- Overlay Image Container -->
+    <div class="overlay-image">
+      <img src="https://github.com/LarraineG/GoogleBooks/assets/68169895/4592754e-8f9d-4b77-9cab-4a17d8880388" alt="Overlay">
+    </div>
+
+    <h1 class="text-blue-800 font-black mt-10 mb-0">NOT SURE WHAT YOU NEED?</h1>
+    <p class="text-xs text-gray-700 font-extrabold mt-0">
+      Let our team of experts help guide your purchase from our yard to yours.
+    </p>
+    <button class="text-sm mt-8 border-none bg-orange-400 hover:bg-blue-700 text-white font-extrabold py-3 px-32 mb-11">
+      CONTACT US
+    </button>
+  </div>
+</div>
 
 
           <!-- FOOTER LEFT ALGINED -->
