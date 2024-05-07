@@ -2,12 +2,12 @@
 module.exports = {
   theme: {
     screens: {
-      'xs': '320px',  // Consider starting with a smaller base size for extra-small devices.
-      'sm': '640px',  // Tailwind's default breakpoint for small devices.
-      'md': '768px',  // Tailwind's default breakpoint for medium devices.
-      'lg': '1024px', // Tailwind's default breakpoint for large devices.
-      'xl': '1280px', // Tailwind's default breakpoint for extra-large devices.
-      '2xl': '1536px' // Consider adding a breakpoint for very large devices.
+      'xs': '320px',  
+      'sm': '640px',  
+      'md': '768px',  
+      'lg': '1024px', 
+      'xl': '1280px', 
+      '2xl': '1536px' 
     },
     
     extend: {
@@ -39,7 +39,10 @@ module.exports = {
         12: '48px',
         14: '56px',
         16: '64px',
+        18: '72px',
+        17: '75px',
         20: '80px',
+        21: '93px',
         24: '96px',
         28: '112px',
         32: '128px',
@@ -54,6 +57,19 @@ module.exports = {
         72: '288px',
         80: '320px',
         96: '384px',
+        99: '615px',
+        999: '560px',
+        9999: '850px', 
+        100: '2650px',
+        200: '2650px',
+        201: '2950px',
+      },
+      colors: {
+        'bigge-blue':'#0035AD',
+        'bigge-orange':'#e88031',
+        'bigge-button':'#5b97c4',
+        'bigge-light-gray': '#f8f7f5',
+        'bigge-navy':'#192b55'
       },
       borderRadius: {
         none: '0px',
@@ -78,8 +94,13 @@ module.exports = {
         sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
+        sans1: ['Arial']
       },
-      
+      fontWeight: {
+        'extra-black': 1000,
+        'custom-light': 475,
+        'custom-bold': 750
+      },
       fontSize: {
         0: '0',
         xxs: '11px',
@@ -115,7 +136,7 @@ module.exports = {
         '2xl': '336px',
         '3xl': '384px',
         '4xl': '448px',
-        '5xl': '512px',
+        '5xl': '500px',
         '6xl': '576px',
         '7xl': '640px',
       }),
