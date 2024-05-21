@@ -61,15 +61,16 @@ module.exports = {
         999: '560px',
         9999: '850px', 
         100: '2650px',
-        200: '2650px',
-        201: '2950px',
+        200: '2605px',
+        201: '2905px',
       },
       colors: {
         'bigge-blue':'#0035AD',
         'bigge-orange':'#e88031',
         'bigge-button':'#5b97c4',
         'bigge-light-gray': '#f8f7f5',
-        'bigge-navy':'#192b55'
+        'bigge-navy':'#192b55',
+        'dh-bigge-blue': '#21407f'
       },
       borderRadius: {
         none: '0px',
