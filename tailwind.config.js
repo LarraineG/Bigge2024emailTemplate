@@ -67,7 +67,7 @@ module.exports = {
       colors: {
         'bigge-blue':'#0035AD',
         'bigge-orange':'#e88031',
-        'bigge-button':'#5b97c4',
+        'bigge-button':'#40a9ff',
         'bigge-light-gray': '#f8f7f5',
         'bigge-navy':'#192b55',
         'dh-bigge-blue': '#21407f'
